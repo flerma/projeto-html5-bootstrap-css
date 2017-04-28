@@ -21,6 +21,37 @@
 	margin-top: 0;
 }
 
+.topCasaFina-banner {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	width: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.3s;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+header {
+	background-image: url(img/castelo.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+	position: relative;
+}
+
 footer {
 	background-color: #333;
 	color: #FFF;
